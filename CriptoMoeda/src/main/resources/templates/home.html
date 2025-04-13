@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.w3.org/1999/xhtml" layout:decorate="~{layout}">
+<head>
+<meta charset="UTF-8" />
+</head>
+<body>
+
+	<section class="layout-content" layout:fragment="corpo">
+		<main role="main">
+			<div class="album py-0 bg-light">
+				<div>
+					<img class="d-block mx-auto" th:src="@{/image/top.png}"
+						width="1080" height="80">
+				</div>
+
+				<img class="d-block mx-auto mb-4" th:src="@{/image/cadastro.png}"
+					width="400" height="100">
+				<hr class="id_hr1">
+				<hr class="id_hr2">
+				<hr class="id_hr3">
+				<div class="container">
+					<h1 class="jumbotron-heading">Cripto Moeda</h1>
+
+					<p class="lead text-muted">Compra e Venda de Criptomoedas A
+						compra e venda de criptomoedas é um processo essencial no mercado
+						financeiro digital. Envolve a negociação de ativos como Bitcoin
+						(BTC), Ethereum (ETH), entre outras moedas digitais, por meio de
+						plataformas de exchange. Compra de Criptomoedas Ao comprar uma
+						criptomoeda, o investidor utiliza moeda fiduciária (como real,
+						dólar ou euro) para adquirir um ativo digital. Essa operação pode
+						ser feita através de: Corretoras (Exchanges): plataformas online
+						que oferecem a cotação atualizada e opções de compra instantânea.
+
+						P2P (Peer-to-Peer): negociação direta entre usuários, com preços
+						negociáveis. Venda de Criptomoedas Na venda, o usuário troca a
+						criptomoeda por moeda fiduciária ou por outra criptomoeda. O
+						processo envolve: Escolher o momento ideal de venda com base na
+						valorização. Realizar a transação na exchange ou via P2P. Receber
+						o valor diretamente em conta bancária ou carteira digital.
+
+						Aspectos Importantes Volatilidade: os preços das criptomoedas
+						variam constantemente. Taxas: as exchanges cobram taxas sobre
+						transações. Segurança: é fundamental usar carteiras digitais
+						seguras e autenticação em dois fatores (2FA).</p>
+				</div>
+
+
+				<div class="container mt-4">
+					<div class="row row-cols-1 row-cols-md-1 g-1"> <!-- g-1 = espaçamento pequeno -->
+
+						<div class="col">
+							<div class="card h-10 shadow-sm">
+								<img th:src="@{/image/bitcoin.png}" class="card-img-top" alt="Bitcoin">
+								<div class="card-body">
+									<h5 class="card-title">Bitcoin</h5>
+									<p class="card-text">
+										O que é Bitcoin?<br> O Bitcoin é uma moeda digital
+										descentralizada criada em 2009 por uma pessoa (ou grupo) sob o
+										pseudônimo de Satoshi Nakamoto. Diferente das moedas
+										tradicionais, o Bitcoin não é controlado por nenhum governo ou
+										instituição financeira, funcionando de forma peer-to-peer
+										(ponto a ponto) por meio da tecnologia blockchain. A
+										blockchain é um livro-caixa público e imutável onde todas as
+										transações realizadas com bitcoins são registradas de forma
+										transparente e segura. Cada bloco da cadeia contém um conjunto
+										de transações e é validado por uma rede global de computadores
+										chamados mineradores. A mineração é o processo de resolver
+										problemas matemáticos complexos para validar essas transações.
+										Como recompensa, os mineradores recebem novos bitcoins. Esse
+										processo também é responsável por controlar a emissão da
+										moeda, que é limitada a 21 milhões de unidades, o que a torna
+										deflacionária. O Bitcoin pode ser usado para: Realizar
+										transferências de valor com baixo custo e alta velocidade.
+										Comprar produtos e serviços em estabelecimentos que o aceitam.
+										Investimento e proteção contra inflação (em alguns casos,
+										sendo comparado ao “ouro digital”). Vantagens do Bitcoin:
+										Descentralização: sem intermediários. Segurança criptográfica.
+										Transparência das transações. Acessibilidade global. Riscos e
+										Desafios: Alta volatilidade no preço. Possibilidade de uso em
+										atividades ilegais. Riscos de perda de acesso à carteira
+										digital. Regulações governamentais ainda em desenvolvimento.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card mb-4 box-shadow">
+								<img class="card-img-top" th:src="@{/image/ethereum.png}">
+								<div class="card-body">
+									<h5 class="card-title">Ethereum</h5>
+									<p class="card-text">Ethereum: A Revolução dos Contratos
+										Inteligentes O Ethereum é uma plataforma descentralizada
+										baseada em blockchain que permite a criação e execução de
+										contratos inteligentes (smart contracts) e aplicações
+										descentralizadas (dApps) sem qualquer tempo de inatividade,
+										fraude, controle ou interferência de terceiros. Lançado em
+										2015 por Vitalik Buterin e um grupo de desenvolvedores, o
+										Ethereum rapidamente se destacou como uma evolução
+										significativa em relação ao Bitcoin, oferecendo não apenas uma
+										moeda digital (o Ether – ETH), mas também uma infraestrutura
+										para desenvolver soluções financeiras, sociais e tecnológicas
+										descentralizadas. O diferencial do Ethereum está na sua
+										Ethereum Virtual Machine (EVM) – um ambiente de execução que
+										torna possível a automação de acordos digitais por meio dos
+										contratos inteligentes. Esses contratos são códigos
+										armazenados na blockchain que se executam automaticamente
+										quando determinadas condições são atendidas, trazendo mais
+										transparência, segurança e eficiência para as transações. Além
+										disso, o Ethereum está migrando de um modelo de Proof of Work
+										(PoW) para Proof of Stake (PoS) com a atualização Ethereum
+										2.0, visando reduzir o consumo energético da rede e torná-la
+										mais escalável e sustentável. Ethereum não é apenas uma
+										criptomoeda: é uma plataforma revolucionária que serve como
+										base para DeFi (Finanças Descentralizadas), NFTs (Tokens Não
+										Fungíveis), DAOs (Organizações Autônomas Descentralizadas) e
+										muito mais.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card mb-4 box-shadow">
+								<img class="card-img-top" th:src="@{/image/tron.png}">
+								<div class="card-body">
+									<br>
+									<h5 class="card-title">Tron</h5>
+									<p class="card-text">
+										Tron: <br>A Internet Descentralizada em Ação A Tron é uma
+										plataforma blockchain criada com o objetivo de descentralizar
+										a internet e transformar a forma como o conteúdo digital é
+										distribuído. Lançada em 2017 por Justin Sun, a Tron busca
+										eliminar intermediários entre criadores de conteúdo e
+										consumidores, permitindo que os criadores recebam diretamente
+										por seu trabalho com o uso da criptomoeda nativa TRX (Tronix).
+										Um dos grandes diferenciais da Tron é sua alta escalabilidade
+										e taxas extremamente baixas, o que a torna ideal para o
+										desenvolvimento de aplicações descentralizadas (dApps) e
+										contratos inteligentes. A rede é capaz de processar milhares
+										de transações por segundo (TPS), superando o desempenho de
+										várias outras blockchains populares, como Ethereum e Bitcoin.
+										A arquitetura da Tron foi inspirada em um modelo de delegated
+										proof-of-stake (DPoS), no qual os detentores de TRX elegem
+										“super representantes” para validar blocos e manter a rede.
+										Isso garante mais eficiência, velocidade e menor consumo de
+										energia. Além de ser usada para jogos, finanças
+										descentralizadas (DeFi), e tokens não fungíveis (NFTs), a Tron
+										também é compatível com a máquina virtual da Ethereum (EVM), o
+										que facilita a migração de projetos de uma rede para outra.
+										Hoje, a Tron é uma das maiores blockchains em termos de
+										usuários ativos, transações diárias e valor total bloqueado em
+										contratos.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+	</section>
+	<script th:src="~{}" th:fragment="js"></script>
+	<script th:inline="javascript" th:fragment="inlinescript"></script>
+</body>
+</html>
